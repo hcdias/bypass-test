@@ -1,0 +1,17 @@
+{
+ "name": "Bypass test",
+ "description": "Paywall test",
+ "version": "2.0",
+ "permissions": [
+   "activeTab"
+   ],
+   "background": {
+   "scripts": ["popup.js"],
+     "persistent": false
+    },
+    "browser_action": {
+      "default_icon": "icon.png",
+     "default_title": "Me dê a reportagem"
+    },
+    "manifest_version": 2
+}
