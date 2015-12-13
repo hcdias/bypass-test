@@ -4,8 +4,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
       'var cleanUrl = url.substring(url.lastIndexOf("http"));'+
       'var xhr = new XMLHttpRequest();'+
       'xhr.open("GET",cleanUrl);'+
-      'console.log(cleanUrl);'+
-      'console.log("teste");'+
       'xhr.onload = function(){document.write(xhr.response);};xhr.send();'
     });
 });
