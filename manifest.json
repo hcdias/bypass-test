@@ -1,6 +1,6 @@
 {
  "name": "Bypass test",
- "description": "Paywall test",
+ "description": "Bypass Paywall test",
  "version": "2.0",
  "permissions": [
    "activeTab"
@@ -13,5 +13,10 @@
       "default_icon": "icon.png",
      "default_title": "Me dê a reportagem"
     },
+    "icons": { 
+          "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" 
+      },
     "manifest_version": 2
 }
